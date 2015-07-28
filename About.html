@@ -1,108 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>Monica's Games</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/colors.js"></script>
 
 </head>
 
-<body>
-	    <!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="http://mpabin.github.io/">Monica's Games</a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li>
-						<a href="http://mpabin.github.io/">Games</a>
-					</li>
-					<li>
-						<a href="./Art.html">Art</a>
-					</li>
-					<li>
-						<a href="./About.html">About</a>
-					</li>
-				</ul>
-				<div style="float:right; padding: 10px 5px 0 0">
-					<a href="https://twitter.com/itsmewnica"><img class="social" width=32 height=26 src="images/Twitter_logo_blue.png"></a>
-					<a href="http://mewnica.tumblr.com/"><img class="social" width=32 height=32 src="images/tumblr_logo_white_blue_32.png"></a>
+<body>	
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+		<div class="col-sm-6 col-sm-offset-3">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Monica Pabin</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li id="games-nav"><a href="index.html">Games</a></li>
+			<li id="art-nav"><a href="art.html">Art</a></li>
+            <li class="active" id="about-nav"><a href="about.html" onclick="return false;">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="social-media"><a href="https://twitter.com/itsmewnica" target="_blank"><img src="images\twitter.png" width="35"></a></li>
+			<li class="social-media"><a href="http://mewnica.tumblr.com/" target="_blank"><img src="images\tumblr.png" width="35"></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+	  </div>
+    </nav>
+	
+	
+<div class="container">
+    <div class="row">		
+        <div class="col-sm-6 col-sm-offset-3">	
+			<div class ="row">
+			<div class="col-sm-12 thumbnail game-thumbnail rainbow-bg">
+				<div class="panel">
+					<div class="panel-body">
+						Hi! My name is Monica, and I'm currently studying Software Engineering at McGill. I enjoy always making things, from games to websites, from art to robots.
+						
+						<br><br>You can contact me at:
+						<br>monicapabin@gmail.com<br><br>
+						Check out my resume for a diverse list of projects I've worked on:<br>
+						<a href="monica_pabin_resume.pdf">RESUME</a>
+					</div>
 				</div>
 			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container -->
-	</nav>
-
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Portfolio Item Row -->
-        <div class="row">
-
-            <center>
-			<img src="images/selfie.jpg" height=300>
-			<p>Monica Pabin<br>
-			McGill University<br>
-			Software Engineering</p>
-			<p><b>Email:</b> monica.pabin@mail.mcgill.ca</p><br>
-			<p><a href="./monica_pabin_resume.pdf"><b>RESUME</b></a></p><br>
-			</center>
-
+			</div>
         </div>
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Website maintained by <a href="https://github.com/mpabin">Monica Pabin</a><br>
-					Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
-
     </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+</div>
 
 </body>
-
 </html>
