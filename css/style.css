@@ -59,6 +59,9 @@ body {
 .panel-body b {
 	color: #555;
 }
+.panel-body img {
+	width: 100%;
+}
 .panel-footer {
 	background: white;
 	border-top-style: none;
