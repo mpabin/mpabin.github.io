@@ -19,7 +19,7 @@ body {
 	background: none;
 }
 .game-thumbnail {
-	background: #555;
+	background: #666;
 	padding-bottom: 2px;
 	margin-bottom: 4px;
 	border: none;
@@ -68,8 +68,8 @@ body {
 	padding-top: 0px;
 }
 .btn {
-	background: #eee;
-	color: #555;
+	background: #ddd;
+	color: #333;
 	font-weight: bold;
 	border-color: white;
 }
@@ -92,7 +92,7 @@ h1 .h1 h2 .h2 h3 .h3 {
 }
 .req-list {
 	padding-left: 10px;
-	background: #eee;
+	background: #ddd;
 }
 .panel-heading {
 	background-size: cover;
